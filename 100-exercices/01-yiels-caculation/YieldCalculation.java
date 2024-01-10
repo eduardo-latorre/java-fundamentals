@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*
+    Calculate the yield of a property
+*/
+
 public class YieldCalculation{
 
     public static void main(String[] args) {
