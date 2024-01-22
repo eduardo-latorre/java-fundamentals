@@ -1,11 +1,11 @@
-public class J02Casting {
+package fundamentals;
 
+public class J04Casting {
     /*
         To convert a value types into others
         - Implicit, when a value is converted into a higher range byte value, no need to ()
         - Explicit, when a value is converted into a shorted range byte value, () is needed
     * */
-
     public static void main (String[] a){
         // Implicit casting
         byte b = 127;
@@ -26,5 +26,4 @@ public class J02Casting {
         int result = b4 + b5;
         System.out.println("result is: " + result);
     }
-    
 }
